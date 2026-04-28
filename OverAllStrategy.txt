@@ -1,0 +1,8 @@
+While both array and hash map retrieval are said to be O(1),
+in pratice array retrieval is much faster than that of hash map because of no hashing overheads because array maintains it's data on a linear medium.
+
+The only time we should use a hash map instead of array is when the key is not an integer
+
+
+If your key is basically an integer it is slightly faster to use array index retrieval instead.
+

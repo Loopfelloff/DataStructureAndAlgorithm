@@ -1,0 +1,2 @@
+If sorted array + target sum => opposite ends
+If modify in place type => same direction fast/slow pointer approach example hare and rabbit for linked list , and in the easy section check out unique elements in sorted array
