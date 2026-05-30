@@ -17,8 +17,8 @@ class Solution:
 
 def main():
     solution = Solution()
-    string_cases = ["abacb" , "abcde" , "ajsrhoebe" , "qkfiuuhd" , "shlvvvx" , "coganww","biikmbqb"]
-    number_cases = [2 , 1 , 2, 2, 2 , 3, 2]
+    string_cases = ["abcda","abacbe" , "abcde" , "ajsrhoebe" , "qkfiuuhd" , "shlvvvx" , "coganww","biikmbqb"]
+    number_cases = [2,2 , 1 , 2, 2, 2 , 3, 2]
     print(list(zip(string_cases , number_cases)))
     for i in range(0, len(string_cases)):
         print(solution.numberOfSubstrings(string_cases[i], number_cases[i]))
