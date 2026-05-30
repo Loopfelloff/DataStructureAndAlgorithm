@@ -1,6 +1,4 @@
 from collections import defaultdict
-
-
 class Solution:
     def subarraysWithKDistinct(self, nums: list[int], k: int) -> int:
         def atMax(k):
