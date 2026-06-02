@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 class Solution:
     def numberOfSubstrings(self, s: str, k: int) -> int:
         def atMax(k):
@@ -18,7 +17,7 @@ class Solution:
                 res += j - i + 1
             return res
 
-        return atMax(k) - atMax(k-1)
+        return (len(s)+1) * len(s) //2 - atMax(k-1)
 
 def main():
     test_cases = ["abacb" , "abcde"]
