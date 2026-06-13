@@ -26,6 +26,7 @@ class Solution:
 def main():
     test_cases = ["aeiouu" , "unicornarihan" , "cuaieuouac"]
     correct = [2 , 0 , 7]
+    print(correct)
     for case in test_cases:
         print(Solution().countVowelSubstrings(case))
 

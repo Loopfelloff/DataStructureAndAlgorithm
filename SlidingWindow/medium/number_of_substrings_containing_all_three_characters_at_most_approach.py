@@ -20,7 +20,7 @@ class Solution:
                 j += 1
             return res
 
-        return ((n+1) * n // 2) - atMost(2) # i have to understand why this worked
+        return ((n+1) * n // 2) - atMost(2) 
 
 
 def main():
